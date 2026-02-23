@@ -93,6 +93,22 @@
                     @enderror
                 </div>
 
+                <!-- Remember Me & Forgot Password -->
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center">
+                        <input id="remember_me" name="remember" type="checkbox" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                        <label for="remember_me" class="ml-2 block text-sm text-gray-700">
+                            Remember me
+                        </label>
+                    </div>
+
+                    <div class="text-sm">
+                        <a href="#" class="font-medium text-blue-600 hover:text-blue-500">
+                            Forgot password?
+                        </a>
+                    </div>
+                </div>
+
                 <!-- Sign In Button -->
                 <button 
                     type="submit" 
@@ -116,7 +132,7 @@
             <div class="text-center">
                 <p class="text-gray-600">
                     Don't have an account? 
-                    <a href="#" class="text-blue-600 hover:text-blue-700 font-medium hover:underline">
+                    <a href="{{ route('register') }}" class="text-blue-600 hover:text-blue-700 font-medium hover:underline">
                         Sign Up
                     </a>
                 </p>
