@@ -11,7 +11,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <h1 class="text-xl font-bold text-gray-800">Campus Buddy</h1>
+                    <h1 class="text-xl font-bold text-red-600">Campus Buddy</h1>
                 </div>
                 <div class="flex items-center space-x-4">
                     <span class="text-gray-600">Welcome, {{ session('user.name', 'Student') }}!</span>

@@ -41,7 +41,7 @@
     <div class="w-full max-w-md">
         <!-- Logo/Header -->
         <div class="text-center mb-8">
-            <h1 class="logo-text text-3xl font-bold text-white">Campus Buddy</h1>
+            <h1 class="logo-text text-3xl font-bold text-red-600">Campus Buddy</h1>
         </div>
 
         <!-- Login Card -->
